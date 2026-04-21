@@ -1,0 +1,18 @@
+Found 2 mermaid charts in Markdown input
+
+Error: Parse error on line 2:
+graph    User -> Browser -> Server
+--------------^
+Expecting 'SEMI', 'NEWLINE', 'EOF', 'AMP', 'START_LINK', 'LINK', 'LINK_ID', got 'MINUS'
+Parser3.parseError (/home/v-haoxiao/.local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/mermaid/dist/mermaid.js:94454:28)
+    at #evaluate (file:///home/v-haoxiao/.local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/cdp/ExecutionContext.js:388:19)
+    at async ExecutionContext.evaluate (file:///home/v-haoxiao/.local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/cdp/ExecutionContext.js:275:16)
+    at async IsolatedWorld.evaluate (file:///home/v-haoxiao/.local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/cdp/IsolatedWorld.js:97:16)
+    at async CdpJSHandle.evaluate (file:///home/v-haoxiao/.local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/api/JSHandle.js:146:20)
+    at async CdpElementHandle.evaluate (file:///home/v-haoxiao/.local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/api/ElementHandle.js:340:20)
+    at async CdpElementHandle.$eval (file:///home/v-haoxiao/.local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/api/ElementHandle.js:494:24)
+    at async CdpFrame.$eval (file:///home/v-haoxiao/.local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/api/Frame.js:450:20)
+    at async CdpPage.$eval (file:///home/v-haoxiao/.local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/api/Page.js:450:20)
+    at async renderMermaid (file:///home/v-haoxiao/.local/lib/node_modules/@mermaid-js/mermaid-cli/src/index.js:266:22)
+    at fromText (/home/v-haoxiao/.local/lib/node_modules/@mermaid-js/mermaid-cli/node_modules/mermaid/dist/mermaid.js:171352:21)
+
